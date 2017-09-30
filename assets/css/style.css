@@ -78,6 +78,7 @@ hr {
 	padding: 10px 20px 20px 20px;
 	background-color: #ffffff;
 	float: left;
+	margin-bottom: 30px;
 }
 
 p {
@@ -119,6 +120,7 @@ h4 {
 	padding: 20px;
 	float: right;
 	background-color: #FFFFFF;
+	margin-bottom: 30px;
 }
 
 .connect img {
@@ -150,4 +152,148 @@ footer {
 	padding: 30px;
 	margin: 0px;
 	color: white;
+}
+
+@media only screen and (max-width: 980px) {
+body {margin: 0px;
+	width: auto;}
+header{margin-bottom: 30px;}
+h1 {float: left;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;}
+.container {min-width: 0;
+	  max-width: 760px;
+	  margin: 0 auto;
+	  display: inline;
+	  width: auto;
+	}
+.main {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 760px;
+	clear: both;
+}
+
+.main img { float: none;
+	clear: both; }
+
+hr {clear: both;}
+
+.connect {
+	float: none;
+	clear: both;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+nav {float: right;
+     width: auto;
+     margin: 0 auto;
+     right: 0px;
+ }
+nav ul {text-align: center;}
+nav li {display: inline;
+	padding: 0 0.75em;}
+footer {margin-left: 0;}
+}
+
+@media only screen and (max-width: 768px) {
+body {margin: 0px;
+	width: auto;}
+header{margin-bottom: 30px;}
+h1 {float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;}
+.container {min-width: 0;
+	  width: auto;
+	}
+.main {
+	margin-left: 0;
+	max-width: 630px;
+}
+
+.main img { float: none;
+	clear: both; }
+
+.connect {
+}
+nav {float: none;
+	clear: both;
+     width: auto;
+     padding: 0;
+     margin: 0 auto;
+     right: 15px;
+ }
+nav ul {text-align: center;}
+nav li {display: inline;
+	padding: 0 0.75em;}
+footer {margin-left: 0;}
+}
+
+@media only screen and (max-width: 640px) {
+body {margin: 0px;
+	width: auto;}
+header{margin-bottom: 30px;}
+h1 {float: none;
+	margin: 0 auto;
+	display: block;
+	text-align: center;}
+.container {min-width: 0;
+	  width: auto;
+	  max-width: 475px;
+	}
+.main {
+	margin-left: 0;
+	max-width: 475px;
+	width: auto;
+	clear: both;
+}
+
+.main img {
+	clear: both; }
+
+.image-div {
+	align-content: center;
+	margin: 0 auto;
+	width: auto;
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+nav {float: none;
+	clear: both;
+     width: auto;
+     padding: 0;}
+nav ul {text-align: center;}
+nav li {display: inline;
+	padding: 0 0.75em;}
+footer {margin-left: 0;}
+}
+
+@media only screen and (max-width: 480px) {
+body {margin:0 }
+.container {min-width: 0; 
+	  width: auto;
+	  margin: 0;}
+.main img {float: none;
+	      padding: 0;
+	      margin: 0.1em;}
+.main ul {list-style-position:outside;}
+#mobile {display: inline;}
+#desktop {display: none;}
+h1 {margin: 0;
+    font-size: 1.5em;
+    padding-left: 0.3em;}
+
+nav ul {padding: 0;}
+nav li {display: block;
+	margin: 0;
+	border-bottom: 2px solid #5E2605;}
+nav a {display: block;}
+footer {margin-left: 0;}
+label {float: none;
+       text-align: left;}
+#gallery {display: none;}
 }
